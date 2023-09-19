@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 definePageMeta({
   middleware: 'auth'
 })
@@ -9,6 +9,8 @@ const newTodoInput = ref(null)
 const toast = useToast()
 const { user, clear } = useUserSession()
 const { data: todos } = await useFetch('/api/todos')
+
+
 
 async function addTodo () {
   if (!newTodo.value.trim()) { return }

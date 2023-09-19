@@ -1,0 +1,7 @@
+node_compat = true
+ 
+[[ d1_databases ]]
+binding = "DB"
+database_name = "nuxt-todos-edge"
+database_id = "b79a75b0-c3a5-45d4-8de3-c48432f94bf4"
+migrations_dir = "./server/db/migrations"

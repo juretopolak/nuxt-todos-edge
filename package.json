@@ -25,6 +25,7 @@
     "@nuxt/devtools": "^0.8.3",
     "@nuxt/eslint-config": "^0.2.0",
     "eslint": "^8.49.0",
+    "nuxt-scheduler": "^0.1.9",
     "typescript": "5.2.2"
   }
 }
